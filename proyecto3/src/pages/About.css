@@ -1,0 +1,167 @@
+@font-face {
+    font-family: macaroni;
+    src: url(fuentes/Macaroni.ttf);
+}
+
+@font-face {
+    font-family: feather;
+    src: url(fuentes/Magical_Feather.ttf);
+}
+
+@font-face {
+    font-family: absernder;
+    src: url(fuentes/absender1.ttf);
+}
+
+@font-face {
+    font-family: mandala;
+    src: url(fuentes/Mandala_Wedding.otf);
+}
+
+@font-face {
+    font-family: mono;
+    src: url(fuentes/SimplyMono.ttf);
+}
+
+.aboutText{
+    font-family: mandala;
+    font-size: xxx-large;
+    font-weight: bolder;
+    text-align: center;
+    color: #d9434f;
+}
+
+.about{
+    width: 100%;
+    height: fit-content;
+}
+
+.separador{
+    font-family: mandala;
+    font-size: xx-large;
+
+    text-align: center;
+    color: #d9434f;
+    margin-top: -30px;
+}
+
+.logoImg{
+    height: 70px;
+    width: auto;
+
+    margin-left: 20px;
+    margin-top: 10px;
+    
+    position: absolute;
+}
+
+.infoContainer{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textoGeneral{
+    font-family: feather;
+    font-size: xx-large;
+    text-align: center  ;
+    width: 80%;
+}
+
+.textoNoTanGrande{
+    margin-top: 20px;
+    font-family: absender;
+    font-size: x-large;
+    text-align: center  ;
+    width: 80%;
+}
+
+.genContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.bulletContainer{
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.bulletFondo{
+    background-color: #4e383d ;
+    border-radius: 20px;
+
+    width: 250px;
+    height: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bulletFondo img{
+    background-color: #4e383d ;
+    border-radius: 20px;
+
+    width: 200px;
+    height: 200px;
+}
+
+.meGustaTexto{
+    font-family: mono;
+    font-size: larger;
+
+    color: #73626e ;
+
+    display: flex;
+    align-items: center;
+}
+
+.lilBulletContainer{
+    height: fit-content;
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 395px) {
+    .separador{
+        display: none;
+    }
+
+    .aboutText{
+        margin-top: 70px;
+    }
+
+    .navContainer{
+        align-items: flex-start;
+        flex-direction: row;
+
+        margin-top: 10px;
+    }
+
+    .nav{
+        flex-direction: row;
+
+        width: 250px;
+        height: 50px;
+
+        gap: 0;
+        margin-top: -70px;
+    }
+
+    .logoImg img{
+        margin-top: -70px;
+    }
+}

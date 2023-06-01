@@ -1,0 +1,198 @@
+@font-face {
+    font-family: macaroni;
+    src: url(fuentes/Macaroni.ttf);
+}
+
+@font-face {
+    font-family: feather;
+    src: url(fuentes/Magical_Feather.ttf);
+}
+
+@font-face {
+    font-family: sunday;
+    src: url(fuentes/Sunday_Best.ttf);
+}
+
+@font-face {
+    font-family: mandala;
+    src: url(fuentes/Mandala_Wedding.otf);
+}
+
+.fullContainer{
+    overflow: hidden;
+}
+
+.waveContainer{
+    height: 100vh;
+
+    object-fit: cover;
+    display: flex;
+    justify-content: end;
+}
+
+.fondo{
+    height: 100%;
+    width: 650px;
+
+    background-color: #4e383d;
+}
+
+.logoImg{
+    height: 70px;
+    width: auto;
+
+    margin-left: 20px;
+    margin-top: 10px;
+    
+    position: absolute;
+}
+
+.navContainer{
+    height: 95%;
+    width: 100%;
+
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.principalContainer{
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.letrasVerContainer{
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.letrasHorContainer{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.letrasHorContainer2{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.letrasContainer{
+    height: fit-content;
+    width: 50%;
+
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.holaTexto{
+    font-family: macaroni;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.nombreTexto{
+    font-family: sunday;
+    font-size: x-large;   
+    
+    color: #96b5a6 ;
+}
+
+.nombreTexto2{
+    font-family: sunday;
+    font-size: large;   
+    
+    color: #96b5a6 ;
+}
+
+.explicacion{
+    font-family: feather;
+    font-size: xx-large;
+}
+
+.ultimoTexto{
+    font-family: mandala;
+    font-size: large;
+}
+
+.pic{
+    height: 75%;
+    width: auto;
+    margin-right: 55px;
+}
+
+.pic img{
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 395px) {
+    .fondo{
+        width: 100px;
+    }
+
+    .nav{
+        flex-direction: row;
+
+        width: 250px;
+        height: 50px;
+
+        gap: 0;
+    }
+
+    .navContainer{
+        align-items: flex-start;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+
+    .letrasContainer{
+        width: 100%;
+    }
+
+    .letrasHorContainer2{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .principalContainer{
+        height: 90%;
+
+        flex-direction: column;
+        margin-top: 90px;
+    }
+
+    .pic{
+        height: 35%;
+        width: auto;
+
+        margin: 0;
+    }
+
+    .logoImg{
+        margin-top: 65px;
+    }
+}
