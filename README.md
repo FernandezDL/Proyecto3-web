@@ -1,17 +1,17 @@
 # Proyecto 3 - Sistemas y Tecnologías Web
 
 ## Contenidos
-- [Descripción](https://github.com/Wachuuu15/Proyecto2_web#descripci%C3%B3n)
-- [Tecnologías usadas](https://github.com/Wachuuu15/Proyecto2_web#tecnolog%C3%ADas-usadas)
-   - [JavaScript](https://github.com/Wachuuu15/Proyecto2_web#-angular)
-   - [React](https://github.com/Wachuuu15/Proyecto2_web#-typescript)
-   - [CSS](https://github.com/Wachuuu15/Proyecto2_web#-css)
-   - [HTML](https://github.com/Wachuuu15/Proyecto2_web#-html)
-- [Comandos importantes](url)
-- [Estructura](url)
-- [Proyecto en servidor](url)
-- [Soporte](https://github.com/Wachuuu15/Proyecto2_web#soporte)
-- [Autores](https://github.com/Wachuuu15/Proyecto2_web#autores)
+- [Descripción]((https://github.com/FernandezDL/Proyecto3-web#descripci%C3%B3n))
+- [Tecnologías usadas](https://github.com/FernandezDL/Proyecto3-web#tecnolog%C3%ADas-usadas)
+   - [JavaScript](https://github.com/FernandezDL/Proyecto3-web#-javascript)
+   - [React](https://github.com/FernandezDL/Proyecto3-web#-react)
+   - [CSS](https://github.com/FernandezDL/Proyecto3-web#-css)
+   - [HTML](https://github.com/FernandezDL/Proyecto3-web#-html)
+- [Comandos importantes](https://github.com/FernandezDL/Proyecto3-web#comandos-importantes)
+- [Estructura](https://github.com/FernandezDL/Proyecto3-web#estructura)
+- [Proyecto en servidor](https://github.com/FernandezDL/Proyecto3-web#proyecto-en-servidor)
+- [Soporte](https://github.com/FernandezDL/Proyecto3-web#soporte)
+- [Autores](https://github.com/FernandezDL/Proyecto3-web#autora)
 
 ## Descripción
 Tener un portafolio personal es una parte importante de la carta de presentación de cualquier profesional, con él se muestra qué se ha hecho a lo largo de los años y como se ha evolucionado como desarrollador en las distintas disciplinas de esta ciencia.
