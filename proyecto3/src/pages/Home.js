@@ -53,7 +53,7 @@ function Home() {
 
                     <div className='letrasVerContainer'>
                         <div className='ultimoTexto'>
-                            Acompañame a ver mi viaje hasta
+                            Acompáñame a ver mi viaje hasta
                         </div>
 
                         <div className='ultimoTexto'>

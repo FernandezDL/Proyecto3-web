@@ -1,0 +1,174 @@
+@font-face {
+    font-family: macaroni;
+    src: url(fuentes/Macaroni.ttf);
+}
+
+@font-face {
+    font-family: sunday;
+    src: url(fuentes/Sunday_Best.ttf);
+}
+
+@font-face {
+    font-family: absernder;
+    src: url(fuentes/absender1.ttf);
+}
+
+.genContainerPort{
+    width: 100%;
+    height: 100%;
+}
+
+.tituloPort{
+    font-family: sunday;
+    font-size: xxx-large;
+
+    margin-top: 110px;
+}
+
+.textoNoTanGrandePort{
+    margin-top: 70px;
+    font-size: x-large;
+    text-align: center  ;
+
+    margin-bottom: 100px;
+}
+
+.contLetrasPort{
+    width: 100%;
+
+    position:absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.waveContainerPort{
+    height: 100%;
+
+    object-fit: cover;
+    display: flex;
+    justify-content: start; 
+}
+
+.waveContainerPort2{
+    display: none; 
+}
+
+.fondoPort{
+    width: 650px;
+
+    background-color: #73626e  ;
+}
+
+.proyect{
+    background-color: #febeac ;
+
+    width: fit-content;
+    height: fit-content;
+
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.proyectTittle{
+    font-family: sunday;
+    font-size: large;
+
+    color: #4e383d ;
+}
+
+.proyectDescription{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+    text-align: center  ;
+}
+
+.proyectLink a{
+    font-size: large;
+    color: #4e383d ;
+}
+
+.proyectLink:hover a{
+    color: #b38184 ;
+}
+
+.proyectText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proyectPic{
+    width: auto;
+    height: 120px;
+}
+
+.proyects{
+    width: 85%;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 395px) {
+    .tituloPort{
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    .fondoPort{
+        width: 25%;
+    }
+
+    .proyects{
+        flex-direction: column;
+    }
+
+    .proyect{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .proyectText{
+        text-align: center;
+    }
+
+    .proyectDescription{
+        text-align: center;
+    }
+
+    .proyectLink{
+        text-align: center;
+    }
+    
+    .proyectPic{
+        align-items: center;
+        display: flex;
+    }
+
+    .proyectPic img{
+        height: auto;
+        width: 80px;
+    }
+
+    .textoNoTanGrandePort{
+        margin-bottom: 0;
+    }
+
+    .waveContainerPort2{
+        height: 550px;
+
+        object-fit: cover;
+        display: flex;
+        justify-content: start; 
+    }
+} 

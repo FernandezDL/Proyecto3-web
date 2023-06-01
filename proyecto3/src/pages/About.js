@@ -14,7 +14,7 @@ const logo= {"src": Logo}
 function About() {
 
     return (
-        <div className="genContainer">
+        <div className="genContainerAbout">
             <div className='about'>
                 <div className='logoImg'>
                     <img src={logo.src}/>
