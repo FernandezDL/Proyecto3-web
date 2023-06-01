@@ -8,6 +8,8 @@
    - [CSS](https://github.com/FernandezDL/Proyecto3-web#-css)
    - [HTML](https://github.com/FernandezDL/Proyecto3-web#-html)
 - [Comandos importantes](https://github.com/FernandezDL/Proyecto3-web#comandos-importantes)
+   - [Preparación]
+   - [Compilación del proyecto]
 - [Estructura](https://github.com/FernandezDL/Proyecto3-web#estructura)
 - [Proyecto en servidor](https://github.com/FernandezDL/Proyecto3-web#proyecto-en-servidor)
 - [Soporte](https://github.com/FernandezDL/Proyecto3-web#soporte)
@@ -34,6 +36,28 @@ Por sus siglas en inglés, el Cascading Style Sheets, o también llamado [CSS](h
 [HTML](https://developer.mozilla.org/es/docs/Web/HTML) (HyperText Markup Language) es un lenguaje estándar que se utiliza para crear páginas web con el cual se definen las estructuras y los elementos que componen la interfaz de usuario. Dentro del proyecto, HTML se utiliza para marcar el contenido de la aplicación y crear los elementos a utilizar.
 
 ## Comandos importantes
+### Preparación
+Entre los pasos fundamentales para poder usar este código es tener instalado React y todas las dependencias que necesita. Sin embargo, algunas veces el tener tantas dependencias pueda provocar que se nos confundan y una puede perderse por ahí y que no tengamos bien instaladas las versiones que son.
+
+Dentro del archivo **package.json** que se encuentra en el proyecto se encuentra una lista de todas las dependencias y las respectivas versiones que se necesitan para utilizar el proyecto. Cuando se ejecuta el comando _npm install_ en el directorio raíz del proyecto se busca dicha lista de dependencias y se pasa a descargar e instalar las dependencias correspondientes en un directorio denominda 'node_modules'
+
+Es importante recalcar el hecho de que _npm install_ revisa e instala las dependencias que se utilicen por otras dependencias, haciendo este proceso de forma recursiva y asegurando que se intalen las dependencias necesarias y el proyecto funcione de manera correcta.
+```bash
+npm intall
+```
+
+### Compilación del proyecto
+En este caso, dentro de las configuraciones que se encuentran en el package.json se tiene el script _npm start_ el cual está configurado para abrir un servidor local usando Webpack en modo _"caliente"_ el cual se refiere a que, cuando se guarda algún cambio nuevo en los archivos del proyecto, este compilará y mostrará automáticamente la nueva versión del proyecto en dicho servidor.
+```bash
+npm start
+```
+
+Por otra parte, para el paso final, cuando se quiere producir el Bundle usando, en este caso, Webpack como modo de producción, se utiliza el siguiente comando.
+```bash
+npm run build
+```
+
+En este caso "build" es el nombre del script configurado dentro del package.json del proyecto, en el cual se está especificando que se use Webpack para combinar todos los archivos del proyecto en un solo archivo optimizado. Este archivo será personalizado según la configuración del 'webpack.config.js', tomando en cuenta los puntos de entrada, las reglas de carga de archivos, los complementos y más configuraciones
 
 ## Estructura
 ### fuentes
