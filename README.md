@@ -8,8 +8,8 @@
    - [CSS](https://github.com/FernandezDL/Proyecto3-web#-css)
    - [HTML](https://github.com/FernandezDL/Proyecto3-web#-html)
 - [Comandos importantes](https://github.com/FernandezDL/Proyecto3-web#comandos-importantes)
-   - [Preparación]
-   - [Compilación del proyecto]
+   - [Preparación](https://github.com/FernandezDL/Proyecto3-web#preparaci%C3%B3n)
+   - [Compilación del proyecto](https://github.com/FernandezDL/Proyecto3-web#compilaci%C3%B3n-del-proyecto)
 - [Estructura](https://github.com/FernandezDL/Proyecto3-web#estructura)
 - [Proyecto en servidor](https://github.com/FernandezDL/Proyecto3-web#proyecto-en-servidor)
 - [Soporte](https://github.com/FernandezDL/Proyecto3-web#soporte)
